@@ -3,8 +3,11 @@ package vehiculos;
 public class Vehiculo {
 	private String placa, nombre, traccion;
 	private int puertas, velocidadMaxima, precio, peso;
-	private Fabricante fabricante;
+	protected Fabricante fabricante;
 	private int cantidadVehiculos=0;
+	protected int cantAuto;
+	protected int cantCam;
+	protected int cantCamion;
 	
 	Vehiculo(String placa, String nombre, String traccion, int puertas, int velocidadMaxima, int precio, int peso, Fabricante fabricante){
 		this.setPlaca(placa);
@@ -16,6 +19,7 @@ public class Vehiculo {
 		this.setVelocidadMaxima(velocidadMaxima);
 		this.setTraccion(traccion);
 		cantidadVehiculos++;
+		fabricante.numventas++;
 	}
 	public String vehiculoPorTipo(){
 		return "Automoviles: " + cantAuto + "\nCamionetas: " + cantCam + "\nCamiones: " + cantCamion;
