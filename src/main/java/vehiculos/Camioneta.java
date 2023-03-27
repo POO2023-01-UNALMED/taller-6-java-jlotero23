@@ -6,7 +6,7 @@ public class Camioneta extends Vehiculo {
 		super(placa, nombre, "4X4", puertas, 90, precio, peso, fabricante);
 		//placa,nombre,traccion,puertas,velocidadMaxima,precio,peso,fabricante
 		this.volco=volco;
-		cantCamioneta++;
+		super.cantCamioneta++;
 	}
 	public boolean isVolco() {
 		return volco;
