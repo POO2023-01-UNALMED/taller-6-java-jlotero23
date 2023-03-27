@@ -21,8 +21,8 @@ public class Vehiculo {
 		cantidadVehiculos++;
 		fabricante.numventas++;
 	}
-	public void vehiculoPorTipo(){
-		System.out.println("Automoviles: " + cantAuto + "\nCamionetas: " + cantCam + "\nCamiones: " + cantCamion);
+	public vehiculoPorTipo(){
+		return "Automoviles: " + cantAuto + "\nCamionetas: " + cantCam + "\nCamiones: " + cantCamion
 		
 	}
 	public String getTraccion() {
