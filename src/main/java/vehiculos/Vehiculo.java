@@ -69,10 +69,10 @@ public class Vehiculo {
 		this.precio = precio;
 	}
 	public int getCantidadVehiculos() {
-		return cantidadVehiculos;
+		return CantidadVehiculos;
 	}
 	public void setCantidadVehiculos(int cantidadVehiculos) {
-		this.cantidadVehiculos = cantidadVehiculos;
+		this.CantidadVehiculos = CantidadVehiculos;
 	}
 	public int getPuertas() {
 		return puertas;
