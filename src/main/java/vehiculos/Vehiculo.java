@@ -21,7 +21,7 @@ public class Vehiculo {
 		cantidadVehiculos++;
 		fabricante.numventas++;
 	}
-	public vehiculoPorTipo(){
+	public String vehiculoPorTipo(){
 		return "Automoviles: " + cantAuto + "\nCamionetas: " + cantCam + "\nCamiones: " + cantCamion;
 		
 	}
