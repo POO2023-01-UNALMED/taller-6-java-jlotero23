@@ -19,7 +19,7 @@ public class Vehiculo {
 		this.setPuertas(puertas);
 		this.setVelocidadMaxima(velocidadMaxima);
 		this.setTraccion(traccion);
-		cantidadVehiculos++;
+		CantidadVehiculos++;
 		fabricante.numventas++;
 	}
 	public String vehiculoPorTipo(){
