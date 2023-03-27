@@ -72,7 +72,7 @@ public class Vehiculo {
 		return CantidadVehiculos;
 	}
 	public static void setCantidadVehiculos(int cantidadVehiculos) {
-		this.CantidadVehiculos = CantidadVehiculos;
+		CantidadVehiculos = cantidadVehiculos;
 	}
 	public int getPuertas() {
 		return puertas;
