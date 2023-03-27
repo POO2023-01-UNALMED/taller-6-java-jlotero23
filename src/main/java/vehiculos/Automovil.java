@@ -6,7 +6,6 @@ public class Automovil extends Vehiculo {
 		super(placa, nombre, "FWD", 4, 100, precio, peso, fabricante);
 		//placa,nombre,traccion,puertas,velocidadMaxima,precio,peso,fabricante
 		this.puestos=puestos;
-		super.cantAuto++;
 	}
 	
 	public int getPuestos() {
