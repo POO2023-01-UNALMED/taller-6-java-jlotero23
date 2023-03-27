@@ -22,7 +22,7 @@ public class Vehiculo {
 		fabricante.numventas++;
 	}
 	public vehiculoPorTipo(){
-		return "Automoviles: " + cantAuto + "\nCamionetas: " + cantCam + "\nCamiones: " + cantCamion
+		return "Automoviles: " + cantAuto + "\nCamionetas: " + cantCam + "\nCamiones: " + cantCamion;
 		
 	}
 	public String getTraccion() {
