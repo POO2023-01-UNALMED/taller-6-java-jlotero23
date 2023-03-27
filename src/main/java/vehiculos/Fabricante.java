@@ -35,7 +35,7 @@ public class Fabricante {
 		return pais;
 	}
 	public void setPais(Pais pais) {
-		this.nombre = pais;
+		this.pais = pais;
 	}
 	
 }
