@@ -3,9 +3,9 @@ package vehiculos;
 public class Camion extends Vehiculo {
 	private int ejes;
 	
-	Camion(String placa, String nombre, int precio, int peso, Fabricante fabricante, int ejes){
-		super(placa, nombre, "4X2", 2, 80, precio, peso, fabricante);
-		//placa,nombre,traccion,puertas,velocidadMaxima,precio,peso,fabricante
+	public Camion(String placa, String nombre, int precio, int peso, Fabricante fabricante, int ejes){
+		super(placa, 2, 80, nombre, precio, peso, "4X2", fabricante);
+		//placa, puertas, velocidadMaxima, nombre, precio, peso, traccion, fabricante
 		this.ejes=ejes;
 		
 	}

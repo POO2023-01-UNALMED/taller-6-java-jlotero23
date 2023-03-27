@@ -9,7 +9,8 @@ public class Vehiculo {
 	protected int cantCam;
 	protected int cantCamion;
 	
-	public Vehiculo(String placa, String nombre, String traccion, int puertas, int velocidadMaxima, int precio, int peso, Fabricante fabricante){
+	public Vehiculo(String placa, int puertas,  int velocidadMaxima, String nombre, int precio, int peso, String traccion, Fabricante fabricante){
+		//placa,puertas, velocidadMaxima, nombre, precio, peso, traccion, fabricante
 		this.setPlaca(placa);
 		this.setNombre(nombre);
 		this.setPrecio(precio);
