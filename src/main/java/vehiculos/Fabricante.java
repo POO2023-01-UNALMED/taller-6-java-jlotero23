@@ -15,7 +15,7 @@ public class Fabricante {
 	
 	public Fabricante fabricaMayorVentas() {
 		int masVentas=0;
-		Fabricante masVendedor;
+		Fabricante masVendedor=null;
 		for (Fabricante fabricante : fabricantes) {
 			if (fabricante.numventas>=masVentas) {
 				masVentas=fabricante.numventas;
