@@ -4,7 +4,7 @@ public class Vehiculo {
 	private String placa, nombre, traccion;
 	private int puertas, velocidadMaxima, precio, peso;
 	protected Fabricante fabricante;
-	private int cantidadVehiculos=0;
+	private int CantidadVehiculos=0;
 	protected int cantAuto;
 	protected int cantCam;
 	protected int cantCamion;
