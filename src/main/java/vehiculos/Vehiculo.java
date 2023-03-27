@@ -4,7 +4,7 @@ public class Vehiculo {
 	private String placa, nombre, traccion;
 	private int puertas, velocidadMaxima, precio, peso;
 	protected Fabricante fabricante;
-	private int CantidadVehiculos=0;
+	private static int CantidadVehiculos=0;
 	protected int cantAuto;
 	protected int cantCam;
 	protected int cantCamion;
@@ -68,10 +68,10 @@ public class Vehiculo {
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
-	public int getCantidadVehiculos() {
+	public static int getCantidadVehiculos() {
 		return CantidadVehiculos;
 	}
-	public void setCantidadVehiculos(int cantidadVehiculos) {
+	public static void setCantidadVehiculos(int cantidadVehiculos) {
 		this.CantidadVehiculos = CantidadVehiculos;
 	}
 	public int getPuertas() {
